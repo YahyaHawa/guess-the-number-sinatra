@@ -26,7 +26,7 @@ helpers do
 
   def guess_prompt
     if no_guess_yet?
-      "Try to guess it!"
+      "Enter your guess below!"
     else
       ["Nope!", "Sorry!", "Try Again!", "Drat!", "Darn it!", "Hah, no!"].sample
     end

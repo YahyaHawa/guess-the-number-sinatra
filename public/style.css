@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text|Raleway|Shrikhand');
+
+body {
+  background-image: url("img/light-bg2.png");
+  text-align: center;
+}
+
+h1 {
+    font-size: 5em; 
+    /* font-family: 'Raleway', sans-serif; */ 
+    /* font-family: 'Shrikhand', cursive; */
+    font-family: 'Markazi Text', serif;
+}
+
+p {
+  margin: 2em;
+  line-height: 1.5;
+}
+
+
+.start {
+  display: block;
+  background-color: purple;
+  color: white;
+  width: 5em;
+  height: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  line-height: 5em;
+  text-decoration: none; 
+}
+
+.start:hover {
+  transition: color 1s;
+  background-color: red;
+}
+
+.number {
+  font-size: 4em;
+  width: 400px;
+  margin-bottom: 1em;
+}
